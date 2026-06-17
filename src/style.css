@@ -80,11 +80,6 @@ body {
   box-shadow: 0 1px 8px 0 rgba(61, 78, 97, 0.1);
 }
 
-.search-sm:focus {
-  box-shadow: none;
-  font-weight: 900;
-}
-
 .search-sm__icon {
   background-image: url(./images/Search.svg);
   height: 11px;
@@ -103,4 +98,9 @@ body {
   line-height: 100%;
   letter-spacing: 0%;
   color: #3d4e61;
+}
+
+.search-sm__input:focus {
+  box-shadow: none;
+  font-weight: 900;
 }
